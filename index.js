@@ -12,7 +12,7 @@ var socketIO = require('socket.io');
 var fileServer = new(nodeStatic.Server)();
 var app = http.createServer(function(req, res) {
   fileServer.serve(req, res);
-}).listen(7777);
+}).listen(process.env.PORT || 5000);
 
 var io = socketIO.listen(app);
 io.sockets.on('connection', function(socket) {
