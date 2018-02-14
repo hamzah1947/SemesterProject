@@ -1,0 +1,6 @@
+{
+  "name": "SemesterProject",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/hamzah1947/SemesterProject",
+  "keywords": ["node", "express", "heroku"]
+}

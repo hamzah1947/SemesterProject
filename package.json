@@ -1,0 +1,25 @@
+{
+  "name": "semesterproject",
+  "version": "1.0.0",
+  "description": "projectfolder",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzah1947/SemesterProject.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "webrtc"
+  ],
+  "author": "hamza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzah1947/SemesterProject/issues"
+  },
+  "homepage": "https://github.com/hamzah1947/SemesterProject#readme"
+}
